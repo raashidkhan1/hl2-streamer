@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="HL2RmStreamUnityPlugin.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="ResearchModeFrameStreamer.cpp" />
+    <ClCompile Include="ResearchModeFrameProcessor.cpp" />
+    <ClCompile Include="VideoCameraStreamer.cpp" />
+    <ClCompile Include="VideoCameraFrameProcessor.cpp" />
+    <ClCompile Include="RMCameraReader.cpp" />
+    <ClCompile Include="Tar.cpp" />
+    <ClCompile Include="TimeConverter.cpp" />
+    <ClCompile Include="StringHelpers.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HL2RmStreamUnityPlugin.h" />
+    <ClInclude Include="ResearchModeApi.h" />
+    <ClInclude Include="ResearchModeFrameStreamer.h" />
+    <ClInclude Include="IResearchModeFrameSink.h" />
+    <ClInclude Include="ResearchModeFrameProcessor.h" />
+    <ClInclude Include="VideoCameraStreamer.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="IVideoFrameSink.h" />
+    <ClInclude Include="VideoCameraFrameProcessor.h" />
+    <ClInclude Include="RMCameraReader.h" />
+    <ClInclude Include="Tar.h" />
+    <ClInclude Include="TimeConverter.h" />
+    <ClInclude Include="StringHelpers.h" />
+  </ItemGroup>
+</Project>
